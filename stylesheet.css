@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Cabin", sans-serif;
+  list-style: none;
+}
+
+:root {
+  --main: #0f153d;
+  --secondary: #5271ff;
+  --thirdcolor: #03989e;
+}
+
+main {
+  background-color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  color: var(--secondary);
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main);
+  margin: 0;
+  box-shadow: 2px 2px 30px 0 #000;
+  z-index: 2;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 15px;
+}
+
+.navbar ul :hover {
+  background-color: var(--thirdcolor);
+  color: white;
+  border-radius: 5px;
+  font-weight: 100px;
+}
+#section {
+  display: flex;
+  justify-content: center;
+  margin: 10px 70px 0 70px;
+  max-width: 1400px;
+  gap: 250px;
+}
+
+.letras {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+}
+
+.letras h1 {
+  font-size: 60px;
+  color: #0f153d;
+}
+
+.letras p span {
+  background-color: var(--secondary);
+  border-radius: 2px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ingreso {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.ingreso :hover {
+  background-color: #0f153d;
+  text-decoration: underline;
+}
+
+.ingresar {
+  background-color: var(--thirdcolor);
+  border-radius: 5px;
+  color: white;
+}
+
+.ingresar-2 {
+  background-color: var(--thirdcolor);
+  border-radius: 5px;
+  color: white;
+}
+
+#section img {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #5271ff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px 0 var(--main);
+  cursor: pointer;
+}
+
+.parrafo p {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+}
